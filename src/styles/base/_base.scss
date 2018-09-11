@@ -1,0 +1,96 @@
+$primary-color: #261D61;
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../assets/fonts/Nexa-Book.woff2');
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../assets/fonts/Nexa-Bold.woff2');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'GurmukhiMN';
+  src: url('../assets/fonts/GurmukhiMN.woff2');
+}
+
+$gurmukhi: 'GurmukhiMN', helvetica, sans-serif;
+$nexa: 'Nexa', helvetica, sans-serif;
+
+body {
+  background: $primary-color;
+  color: #fff;
+  font-family: 'Nexa', helvetica, sans-serif;
+  font-size: 100%;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: $gurmukhi;
+  font-size: 3.75em;
+}
+
+h2 {
+  font-family: $gurmukhi;
+  font-size: 2.5em;
+  margin: 100px 0;
+  text-align: center;
+}
+
+h3 {
+  font-family: $gurmukhi;
+  font-size: 1.875em;
+  // text-align: center;
+}
+
+h4 {
+  font-family: $nexa;
+  font-size: 1.063em;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.cta-btn {
+  background: #642FD9;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  // height: 13px;
+  letter-spacing: .1em;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  // width: 88px;
+}
+
+.cta-btn:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+
+.cta-btn:focus {
+  outline: none;
+}
+
+.btn-2 {
+  background: #342A7B;
+  color: #B8C3D5;
+  height: 55px;
+  width: 165px;
+}
+
+.book {
+  height: 55px;
+  width: 190px;
+}

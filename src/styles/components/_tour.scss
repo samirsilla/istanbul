@@ -1,0 +1,146 @@
+
+.tour-detail-page-container {
+  // background: coral;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  // margin: 0 100px;
+}
+
+.tour-detail-page-wrapper {
+  align-items: center;
+  background: #1C1649;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  // flex-flow: column nowrap;
+  // height: 100vh;
+  height: 600px;
+  // padding: 65px;
+  // justify-content: space-around; 
+  margin: 0 100px;
+  // width: 510px;
+}
+
+.tour-detail-wrapper {
+  // background: yellow;
+  // height: 60vh;
+  // margin: 200px 100px;
+  padding: 70px;
+  width: 510px;
+}
+
+.detail-name {
+  margin-bottom: 10px;
+}
+
+.tour-detail-secondary-details-container {
+  // background: lightblue;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.tour-detail-icons-details {
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+}
+
+.detail-image {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 600px;
+  width: 750px;
+}
+
+.detail-description {
+  color: #B8C3D5;
+  font-size: .813em;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  font-size: .625em;
+  text-transform: uppercase;
+  margin-right: 87px;
+}
+
+.form-labels {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: .1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.price-book-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-price {
+  align-items: center;
+  border: 1px solid rgba(#fff, .1);
+  border-radius: 4px;
+  color: #B8C3D5;
+  display: flex;
+  font-size: 1.125em;
+  height: 55px;
+  line-height: 1;
+  justify-content: center;
+  width: 130px;
+}
+
+.guest-input {
+  background: #18133F;
+  border: none;
+  border-radius: 4px;
+  color: #B8C3D5;
+  font-size: 12px;
+  height: 40px;
+  padding: 0 30px;
+  width: 80px;
+}
+
+.guest-input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color:#B8C3D5;
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+select {
+  background: #18133F;
+  border: none;
+  border-radius: 4px;
+  color: #B8C3D5;
+  font-family: $nexa;
+  font-size: 12px;
+  height: 45px;
+  letter-spacing: .1em;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 140px;
+}

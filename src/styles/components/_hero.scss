@@ -1,0 +1,21 @@
+.hero__wrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 745px;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.hero__img {
+  border-radius: 5px 5px 5px 220px;
+  height: 499px;
+  width: 499px;
+}
+
+.hero__intro {
+  font-weight: lighter;
+  line-height: 1.5;
+  margin: 45px 0;
+  width: 60%;
+}
